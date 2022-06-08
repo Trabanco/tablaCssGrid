@@ -1,0 +1,70 @@
+body{
+    width: 700px;
+    height: 500px;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+.contenedor{
+    width: 360px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 0.75fr 1.50fr 0.75fr;
+   
+    align-items:stretch;
+}
+.f1colores{
+   grid-column: 1/-1;
+   background-color: green; 
+   display: flex;
+   justify-content: center;
+
+}
+.f4green{
+    grid-column: -1/-4;
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.teal{
+    background-color: teal;
+}
+.blue{
+    background-color: blue;
+}
+.navy{ 
+    background-color: navy;
+}
+.lime{
+    background-color: lime;
+}
+.white{
+    background-color: white;
+}
+.purple{
+    background-color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.olive{
+    background-color: olive;
+}
+.red{
+    background-color: red;
+}
+.black1{
+    background-color: black;
+}
+.gray{
+    background-color: gray;
+}
+.olive1{
+    background-color: olive;
+}
+.red1{
+    background-color: red;
+}
+.fuchsia{
+    background-color: fuchsia;
+}
